@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color:red;
+   padding-top:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color:purple;
+    font-size: 22px;
+    text-align: center;
+}body{
+    background-color: aquamarine;
+    background-image: url(https://images.alphacoders.com/119/thumbbig-1191834.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+fieldset{
+  border-radius: 3%;
+  border-style:double;
+  border-top-color: aqua;
+  border-left-color: blueviolet;
+  border-bottom-color:lightgreen;
+  border-right-color: rgba(146, 69, 119, 0.8);
+    margin-top :10px;
+    margin-bottom:10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.first{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:10px;
+    color:rgba(163, 107, 11, 0.999);
+    margin-top :2px;
+    margin-bottom:2px;
+    margin-left: 50px;
+    padding-top:1px;
+}
+.second{
+    font-display:initial;
+    border-radius:7%;
+    width: 400px;
+    height:30px;
+    margin-top :6px;
+    margin-bottom:6px;
+    margin-left: 50px;
+ color:rgba(181, 23, 160, 0.8);
+}
+input{
+    background-color:rgb(162, 183, 130);
+}

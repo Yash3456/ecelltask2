@@ -10,11 +10,22 @@
 </head>
 <body>
 <h1><b><i>Student Survey Form</i></b></h1> 
-<marquee behaviour="allignment" direction="right"><p><i>Thank you for taking the time to help us to immprove the platform</p></i></marquee>   
+<marquee behaviour="allignment" direction="right"><p><i>Thank you for taking the time to help us to improve the platform</p></i></marquee>   
 <form action="">
     <fieldset>
         <label class="first">Name Of Your Friend <br><input type="text" class="second" placeholder="Enter your name" required></label>
-        <br><br><label class="first">branch<br><input class="second" type="text" placeholder="Enter your Branch" required></label>
+        <br><br><label class="first">branch<br>
+             <select>
+                <option>Select the branch</option>
+            <option>Computer Science and Engineering</option>
+            <option>Electronics and Communication Engineering</option>
+            <option>Electrical and Electronics Engineering</option>
+            <option>Mechannical Engineering</option>
+            <option>Chemical Engineering</option>
+            <option>Biotechnological Engineering</option>
+            <option>Aerospace Engineering</option>
+            <option>other branch</option>
+        </select></label>
      <br><br><label class="first">Age(optional) <br><input class="second" min="13" max="120" type="number" placeholder="Age"></label>
      <br><br><label class="first">Institute<br><input class="second" min="13" max="120" type="text" placeholder="Enter name of your college"></label>
      <br> <br> <label class="first">Would you introduce Him/Her?</label> 

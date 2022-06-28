@@ -61,3 +61,14 @@ input{
  color:blueviolet;
  background-color: greenyellow;
 }
+select{
+   font-display:initial;
+    border-radius:7%;
+    width: 400px;
+    height:30px;
+    margin-top :6px;
+    margin-bottom:6px;
+    margin-left: 50px;
+ color:rgba(181, 23, 160, 0.8); 
+ background-color:rgb(162, 183, 130);  
+}

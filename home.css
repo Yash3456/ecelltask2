@@ -20,7 +20,7 @@ fieldset{
   border-top-color: aqua;
   border-left-color: blueviolet;
   border-bottom-color:lightgreen;
-  border-right-color: rgba(146, 69, 119, 0.8);
+  border-right-color: rgba(146, 69, 119, 0.6);
     margin-top :10px;
     margin-bottom:10px;
     margin-left: 400px;
@@ -29,7 +29,7 @@ fieldset{
 .first{
     font-family: 'Times New Roman', Times, serif;
     margin-top:10px;
-    color:rgba(163, 69, 11, 0.999);
+    color:rgba(233, 35, 17, 0.5);
     margin-top :2px;
     margin-bottom:2px;
     margin-left: 50px;
@@ -43,10 +43,10 @@ fieldset{
     margin-top :6px;
     margin-bottom:6px;
     margin-left: 50px;
- color:rgba(181, 23, 160, 0.8);
+ color:rgba(181, 23, 160, 0.6);
 }
 input{
-    background-color:rgb(162, 183, 130);
+    background-color:rgba(162, 183, 130,0.7);
 }
 .third{
     margin-left: 300px;
@@ -70,5 +70,16 @@ select{
     margin-bottom:6px;
     margin-left: 50px;
  color:rgba(181, 23, 160, 0.8); 
- background-color:rgb(162, 183, 130);  
+ background-color:rgba(162, 183, 130,0.7);  
+}
+textarea{
+    font-display:initial;
+    border-radius:7%;
+    width: 400px;
+    height:30px;
+    margin-top :6px;
+    margin-bottom:6px;
+    margin-left: 50px;
+ color:rgba(181, 23, 160, 0.8);
+ background-color: rgba(184, 206, 140, 0.7);
 }
